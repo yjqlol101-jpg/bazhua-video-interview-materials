@@ -3,6 +3,11 @@
   "title": "芭爪娱视频拍摄剪辑实操题素材包",
   "skuCount": 20,
   "imageCount": 60,
+  "referenceVideoCount": 2,
+  "referenceVideos": [
+    {"id":"reference-video-1","file":"videos/reference-video-1.mp4","source":"https://www.xiaohongshu.com/discovery/item/688b3dc3000000002302adbf"},
+    {"id":"reference-video-2","file":"videos/reference-video-2.mp4","source":"https://www.xiaohongshu.com/discovery/item/66e55adf0000000026032b8f"}
+  ],
   "selectionRule": "从 000 自研发品牌 下的白底修图目录中筛选 20 个 SKU，每个 SKU 配 3 张不同拍摄角度或细节图片。",
   "seriesCount": {"甜品系列": 20},
   "skus": [

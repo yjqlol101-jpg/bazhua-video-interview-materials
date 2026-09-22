@@ -44,6 +44,12 @@
     .task p { margin:0; color:#596279; }
     .refs { display:flex; flex-wrap:wrap; gap:8px; margin-top:17px; }
     .ref { padding:6px 10px; border-radius:7px; background:var(--accent-soft); color:var(--accent); font-size:13px; font-weight:800; text-decoration:none; }
+    .video-ref-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
+    .video-ref { padding:16px; background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); }
+    .video-ref h3 { margin:0 0 12px; font-size:19px; }
+    .video-ref video { display:block; width:100%; max-height:520px; aspect-ratio:9/16; object-fit:contain; background:#111524; border-radius:9px; }
+    .video-actions { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-top:12px; }
+    .video-actions .button { min-height:38px; padding:0 12px; font-size:13px; }
     .rules { overflow:hidden; background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); }
     .rule { display:grid; grid-template-columns:180px 1fr; padding:16px 20px; border-bottom:1px solid var(--line); }
     .rule:last-child { border-bottom:0; }
@@ -73,7 +79,7 @@
     .sku-foot { display:flex; justify-content:space-between; gap:10px; padding:12px 18px 16px; color:var(--muted); font-size:13px; }
     .sku-foot a { color:var(--ink); font-weight:800; text-decoration:none; }
     footer { padding:24px 0 38px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
-    @media (max-width:850px) { .brief-grid,.tasks,.submission { grid-template-columns:1fr; } .sku-grid { grid-template-columns:1fr; } .material-bar { align-items:start; flex-direction:column; } }
+    @media (max-width:850px) { .brief-grid,.tasks,.submission,.video-ref-grid { grid-template-columns:1fr; } .sku-grid { grid-template-columns:1fr; } .material-bar { align-items:start; flex-direction:column; } }
     @media (max-width:600px) { .shell { width:min(100% - 28px,1160px); } .title-block { padding:44px 0 42px; } .lead { font-size:17px; } .section-head { display:block; } .section-head p { margin-top:8px; } .rule { grid-template-columns:1fr; gap:3px; } .number-list { grid-template-columns:1fr 1fr; } .material-stat { gap:18px; } }
   </style>
 </head>
@@ -103,8 +109,16 @@
       <div class="section-head"><div><div class="section-kicker">任务 01—03</div><h2>实操任务</h2></div></div>
       <div class="tasks">
         <article class="task"><span class="task-id">01</span><h3>盲盒开箱视频</h3><p>快速拍摄并剪辑一条盲盒开箱视频，展示拆封过程、产品细节和开箱结果。</p></article>
-        <article class="task"><span class="task-id">02</span><h3>创意短视频</h3><p>从两个参考视频中任选一个创意方向，完成一条芭爪娱产品创意视频。不要求与参考视频画面完全一致，可以借鉴创意形式、镜头语言、节奏或单个创意点。</p><div class="refs"><a class="ref" href="https://www.xiaohongshu.com/discovery/item/688b3dc3000000002302adbf" target="_blank" rel="noreferrer">参考视频 1 ↗</a><a class="ref" href="https://www.xiaohongshu.com/discovery/item/66e55adf0000000026032b8f" target="_blank" rel="noreferrer">参考视频 2 ↗</a></div></article>
+        <article class="task"><span class="task-id">02</span><h3>创意短视频</h3><p>从两个参考视频中任选一个创意方向，完成一条芭爪娱产品创意视频。不要求与参考视频画面完全一致，可以借鉴创意形式、镜头语言、节奏或单个创意点。</p><div class="refs"><a class="ref" href="#reference-videos">查看参考视频</a></div></article>
         <article class="task"><span class="task-id">03</span><h3>AI 视频</h3><p>使用公司提供的 AI 视频生成工具，围绕芭爪娱产品制作一条 AI 视频。</p></article>
+      </div>
+    </section>
+
+    <section id="reference-videos">
+      <div class="section-head"><div><div class="section-kicker">参考视频</div><h2>在线预览与下载</h2></div><p>以下视频为本题参考素材，可直接在线预览或下载到本地。</p></div>
+      <div class="video-ref-grid">
+        <article class="video-ref"><h3>参考视频 1</h3><video controls preload="metadata" playsinline src="videos/reference-video-1.mp4"></video><div class="video-actions"><a class="button secondary" href="videos/reference-video-1.mp4" download>下载视频 1</a><a class="ref" href="https://www.xiaohongshu.com/discovery/item/688b3dc3000000002302adbf" target="_blank" rel="noreferrer">打开原链接 ↗</a></div></article>
+        <article class="video-ref"><h3>参考视频 2</h3><video controls preload="metadata" playsinline src="videos/reference-video-2.mp4"></video><div class="video-actions"><a class="button secondary" href="videos/reference-video-2.mp4" download>下载视频 2</a><a class="ref" href="https://www.xiaohongshu.com/discovery/item/66e55adf0000000026032b8f" target="_blank" rel="noreferrer">打开原链接 ↗</a></div></article>
       </div>
     </section>
 
