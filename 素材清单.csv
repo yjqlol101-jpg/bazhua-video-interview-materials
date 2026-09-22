@@ -1,9 +1,21 @@
-编号,产品形态,产品名称,系列,文件名,用途建议
-01,盲盒挂件,马卡龙泡泡糖挂件盲盒（隐藏款）,甜品系列,01-macaron-blindbox.jpg,适合开箱/揭晓/近景细节
-02,毛绒挂件,冰淇淋毛绒挂件,甜品系列,02-icecream-plush-pendant.jpg,适合手持展示/旋转/挂载场景
-03,公仔,甜心充电站 M 码公仔,甜品系列,03-sweetheart-doll.jpg,适合人物化演绎/推拉镜头/特写
-04,背包,切片蛋糕 S 码背包,甜品系列,04-cake-backpack.jpg,适合佩戴/功能/生活方式内容
-05,手机挂绳,YAPICAT 手机挂绳,YAPICAT,05-yapicat-phone-lanyard.jpg,适合功能演示/穿搭/手部动作
-06,组合挂件,YAPICAT 三合一挂件,YAPICAT,06-yapicat-combo-lanyard.jpg,适合拆解/组合/功能切换
-07,迷你小包,甜心酱迷你小包,甜品系列,07-sweet-sauce-mini-pouch.png,适合打开/收纳/反差/转场
-08,抱枕,BBQ 战斧牛排抱枕,BBQ烧烤,08-bbq-steak-pillow.jpg,适合夸张比例/居家/趣味反转
+SKU编号,货号,产品名称,系列,产品形态,图片数量,图片1,图片2,图片3
+SKU01,K2512054,雪顶冰淇淋,甜品系列,盲盒挂件,3,assets/SKU01/01.jpg,assets/SKU01/02.jpg,assets/SKU01/03.jpg
+SKU02,K2512050,苹果小红帽冰淇淋,甜品系列,盲盒挂件,3,assets/SKU02/01.jpg,assets/SKU02/02.jpg,assets/SKU02/03.jpg
+SKU03,K2512074,牛奶帽冰淇淋,甜品系列,盲盒挂件,3,assets/SKU03/01.jpg,assets/SKU03/02.jpg,assets/SKU03/03.jpg
+SKU04,K2512052,芒果冰淇淋,甜品系列,盲盒挂件,3,assets/SKU04/01.jpg,assets/SKU04/02.jpg,assets/SKU04/03.jpg
+SKU05,K2511136,橘子冰淇淋,甜品系列,盲盒挂件,3,assets/SKU05/01.jpg,assets/SKU05/02.jpg,assets/SKU05/03.jpg
+SKU06,K2512051,薄巧冰淇淋,甜品系列,盲盒挂件,3,assets/SKU06/01.jpg,assets/SKU06/02.jpg,assets/SKU06/03.jpg
+SKU07,K2512079,花束冰淇淋,甜品系列,盲盒挂件,3,assets/SKU07/01.jpg,assets/SKU07/02.jpg,assets/SKU07/03.jpg
+SKU08,K2512076,双霉冰淇淋,甜品系列,盲盒挂件,3,assets/SKU08/01.jpg,assets/SKU08/02.jpg,assets/SKU08/03.jpg
+SKU09,K2512053,草莓冰淇淋,甜品系列,盲盒挂件,3,assets/SKU09/01.jpg,assets/SKU09/02.jpg,assets/SKU09/03.jpg
+SKU10,K2512078,柠檬冰淇淋,甜品系列,盲盒挂件,3,assets/SKU10/01.jpg,assets/SKU10/02.jpg,assets/SKU10/03.jpg
+SKU11,K2601107,泡泡糖马卡龙,甜品系列,盲盒挂件,3,assets/SKU11/01.jpg,assets/SKU11/02.jpg,assets/SKU11/03.jpg
+SKU12,K2601103,柠檬马卡龙,甜品系列,盲盒挂件,3,assets/SKU12/01.jpg,assets/SKU12/02.jpg,assets/SKU12/03.jpg
+SKU13,K2601014,蓝莓马卡龙,甜品系列,盲盒挂件,3,assets/SKU13/01.jpg,assets/SKU13/02.jpg,assets/SKU13/03.jpg
+SKU14,K2601110,黑巧马卡龙,甜品系列,盲盒挂件,3,assets/SKU14/01.jpg,assets/SKU14/02.jpg,assets/SKU14/03.jpg
+SKU15,K2601104,青提马卡龙,甜品系列,盲盒挂件,3,assets/SKU15/01.jpg,assets/SKU15/02.jpg,assets/SKU15/03.jpg
+SKU16,K2601106,薄荷马卡龙,甜品系列,盲盒挂件,3,assets/SKU16/01.jpg,assets/SKU16/02.jpg,assets/SKU16/03.jpg
+SKU17,K2601030,苹果马卡龙,甜品系列,盲盒挂件,3,assets/SKU17/01.jpg,assets/SKU17/02.jpg,assets/SKU17/03.jpg
+SKU18,K2601102,橙子马卡龙,甜品系列,盲盒挂件,3,assets/SKU18/01.jpg,assets/SKU18/02.jpg,assets/SKU18/03.jpg
+SKU19,K2601109,草莓马卡龙,甜品系列,盲盒挂件,3,assets/SKU19/01.jpg,assets/SKU19/02.jpg,assets/SKU19/03.jpg
+SKU20,K2512040,抹茶蛋糕,甜品系列,盲盒挂件,3,assets/SKU20/01.jpg,assets/SKU20/02.jpg,assets/SKU20/03.jpg

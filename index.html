@@ -3,177 +3,144 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="芭爪娱视频拍摄剪辑实操题与精选产品素材包">
-  <title>芭爪娱｜视频实操题与素材包</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%231b2440'/%3E%3Cpath d='M17 39c10 8 20 8 30 0M21 27c4-7 18-7 22 0' fill='none' stroke='%23ffb8a4' stroke-width='6' stroke-linecap='round'/%3E%3Ccircle cx='25' cy='31' r='3' fill='%23fff'/%3E%3Ccircle cx='39' cy='31' r='3' fill='%23fff'/%3E%3C/svg%3E">
+  <meta name="description" content="芭爪娱视频拍摄剪辑实操题：盲盒开箱、创意短视频、AI视频与20个SKU素材包">
+  <title>芭爪娱｜视频拍摄剪辑实操题</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231b2440'/%3E%3Cpath d='M18 40c9 7 19 7 28 0M21 28c4-6 18-6 22 0' fill='none' stroke='%23ffb8a4' stroke-width='6' stroke-linecap='round'/%3E%3Ccircle cx='25' cy='31' r='3' fill='%23fff'/%3E%3Ccircle cx='39' cy='31' r='3' fill='%23fff'/%3E%3C/svg%3E">
   <style>
-    :root {
-      --ink: #18213c;
-      --muted: #6c748b;
-      --line: #e7e9f0;
-      --paper: #fbfbfd;
-      --card: #ffffff;
-      --peach: #ffb8a4;
-      --peach-dark: #d7614c;
-      --mint: #bcebdc;
-      --lavender: #d8d7ff;
-      --shadow: 0 16px 42px rgba(24, 33, 60, .08);
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      color: var(--ink);
-      background: var(--paper);
-      font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
-      font-size: 16px;
-      line-height: 1.65;
-    }
-    a { color: inherit; }
-    .shell { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
-    header {
-      padding: 28px 0 34px;
-      background: radial-gradient(circle at 88% 10%, #ffe5dc 0, rgba(255,229,220,0) 28%), linear-gradient(135deg, #f7f8ff 0%, #fff 55%, #fff4ef 100%);
-      border-bottom: 1px solid var(--line);
-    }
-    .topline { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
-    .brand { font-weight: 800; letter-spacing: .04em; }
-    .brand span { color: var(--peach-dark); }
-    .version { color: var(--muted); font-size: 13px; }
-    .hero { display: grid; grid-template-columns: 1.15fr .85fr; gap: 58px; align-items: end; padding: 62px 0 40px; }
-    .eyebrow { color: var(--peach-dark); font-weight: 800; letter-spacing: .14em; font-size: 13px; text-transform: uppercase; }
-    h1 { margin: 12px 0 18px; max-width: 690px; font-size: clamp(34px, 5vw, 62px); line-height: 1.08; letter-spacing: -.045em; }
-    .hero-copy { max-width: 650px; color: #535c75; font-size: 18px; }
-    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
-    .button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border-radius: 999px; text-decoration: none; border: 1px solid var(--ink); font-weight: 700; transition: transform .2s ease, box-shadow .2s ease; }
-    .button:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(24,33,60,.12); }
-    .button.primary { background: var(--ink); color: #fff; }
-    .button.secondary { background: #fff; }
-    .hero-art { position: relative; min-height: 240px; }
-    .orbit { position: absolute; inset: 4px 0 0 34px; border: 1px dashed #d2d6e8; border-radius: 50%; transform: rotate(-12deg); }
-    .orbit::before, .orbit::after { content: ""; position: absolute; border-radius: 50%; }
-    .orbit::before { width: 18px; height: 18px; right: 12%; top: 9%; background: var(--peach); }
-    .orbit::after { width: 24px; height: 24px; left: 8%; bottom: 14%; background: var(--mint); }
-    .sticker { position: absolute; display: grid; place-items: center; width: 122px; height: 122px; border-radius: 34% 66% 58% 42% / 48% 35% 65% 52%; box-shadow: var(--shadow); font-weight: 800; text-align: center; }
-    .sticker.one { left: 12%; top: 45px; background: var(--lavender); transform: rotate(-10deg); }
-    .sticker.two { right: 5%; bottom: 14px; background: var(--peach); transform: rotate(9deg); }
-    .sticker small { display: block; font-size: 12px; font-weight: 600; margin-top: 2px; }
-    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 8px; }
-    .stat { padding: 18px 20px; background: rgba(255,255,255,.78); border: 1px solid rgba(231,233,240,.9); border-radius: 18px; }
-    .stat strong { display: block; font-size: 29px; line-height: 1.1; }
-    .stat span { color: var(--muted); font-size: 14px; }
-    main { padding: 52px 0 80px; }
-    section { margin-bottom: 58px; }
-    .section-head { display: flex; justify-content: space-between; gap: 20px; align-items: end; margin-bottom: 20px; }
-    .section-head h2 { margin: 0; font-size: clamp(24px, 3vw, 36px); letter-spacing: -.03em; }
-    .section-head p { margin: 0; max-width: 560px; color: var(--muted); }
-    .tasks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-    .task { position: relative; padding: 25px; min-height: 260px; overflow: hidden; border: 1px solid var(--line); border-radius: 22px; background: var(--card); box-shadow: 0 8px 24px rgba(24,33,60,.04); }
-    .task::after { content: ""; position: absolute; width: 110px; height: 110px; right: -28px; bottom: -34px; border-radius: 50%; background: var(--mint); opacity: .55; }
-    .task:nth-child(2)::after { background: var(--peach); }
-    .task:nth-child(3)::after { background: var(--lavender); }
-    .task-num { display: inline-flex; width: 36px; height: 36px; align-items: center; justify-content: center; border-radius: 12px; background: var(--ink); color: #fff; font-weight: 800; }
-    .task h3 { margin: 18px 0 8px; font-size: 21px; }
-    .task p { position: relative; z-index: 1; margin: 0; color: var(--muted); }
-    .refs { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; position: relative; z-index: 1; }
-    .ref { display: inline-flex; padding: 7px 11px; border-radius: 10px; background: #f4f5fb; color: var(--ink); font-size: 13px; text-decoration: none; font-weight: 700; }
-    .requirements { display: grid; grid-template-columns: .9fr 1.1fr; gap: 16px; }
-    .panel { padding: 26px; background: var(--card); border: 1px solid var(--line); border-radius: 22px; }
-    .panel h3 { margin: 0 0 14px; font-size: 20px; }
-    .checklist { list-style: none; padding: 0; margin: 0; display: grid; gap: 11px; }
-    .checklist li { position: relative; padding-left: 27px; }
-    .checklist li::before { content: "✓"; position: absolute; left: 0; top: 1px; width: 19px; height: 19px; display: grid; place-items: center; border-radius: 50%; background: var(--mint); color: #174d3b; font-weight: 900; font-size: 12px; }
-    .mini-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
-    .mini { padding: 16px; background: #f8f8fc; border-radius: 16px; }
-    .mini b { display: block; font-size: 20px; }
-    .mini span { color: var(--muted); font-size: 13px; }
-    .asset-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
-    .asset { overflow: hidden; background: var(--card); border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 8px 24px rgba(24,33,60,.04); }
-    .asset-image { aspect-ratio: 1 / 1; background: #f4f4f6; overflow: hidden; }
-    .asset-image img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .35s ease; }
-    .asset:hover img { transform: scale(1.04); }
-    .asset-body { padding: 16px; }
-    .tag { display: inline-flex; padding: 5px 8px; border-radius: 8px; background: #fff0ec; color: var(--peach-dark); font-size: 12px; font-weight: 800; }
-    .asset h3 { margin: 10px 0 3px; font-size: 17px; line-height: 1.3; }
-    .asset p { margin: 0 0 13px; min-height: 44px; color: var(--muted); font-size: 13px; line-height: 1.55; }
-    .asset-download { display: inline-flex; color: var(--ink); font-size: 13px; font-weight: 800; text-decoration: none; }
-    .asset-download::after { content: " ↗"; color: var(--peach-dark); }
-    .notice { display: flex; align-items: flex-start; gap: 13px; padding: 17px 19px; border-left: 4px solid var(--peach-dark); background: #fff4ef; color: #5b4b48; border-radius: 12px; }
-    .notice b { color: var(--ink); }
-    footer { padding: 25px 0 42px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
-    @media (max-width: 900px) { .hero { grid-template-columns: 1fr; gap: 10px; } .hero-art { min-height: 190px; } .tasks { grid-template-columns: 1fr; } .requirements { grid-template-columns: 1fr; } .asset-grid { grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 600px) { .shell { width: min(100% - 28px, 1180px); } header { padding-top: 20px; } .hero { padding-top: 42px; } .stats { grid-template-columns: repeat(2, 1fr); } .asset-grid { grid-template-columns: 1fr; } .section-head { display: block; } .section-head p { margin-top: 8px; } .hero-art { min-height: 170px; } .sticker { width: 98px; height: 98px; font-size: 14px; } }
+    :root { --ink:#1b2440; --muted:#697189; --line:#e4e7ef; --paper:#f7f8fb; --card:#fff; --accent:#e56851; --accent-soft:#fff0ec; --blue-soft:#eef1ff; --shadow:0 10px 30px rgba(27,36,64,.07); }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif; font-size:16px; line-height:1.65; }
+    a { color:inherit; }
+    .shell { width:min(1160px,calc(100% - 40px)); margin:0 auto; }
+    .site-header { background:#fff; border-bottom:1px solid var(--line); }
+    .topbar { display:flex; justify-content:space-between; gap:16px; padding:22px 0; border-bottom:1px solid var(--line); font-size:14px; font-weight:800; }
+    .topbar span:last-child { color:var(--muted); font-weight:600; }
+    .title-block { padding:64px 0 58px; max-width:820px; }
+    .kicker { color:var(--accent); font-size:13px; font-weight:900; letter-spacing:.16em; }
+    h1 { margin:12px 0 16px; font-size:clamp(36px,6vw,68px); line-height:1.1; letter-spacing:-.05em; }
+    .lead { margin:0; max-width:700px; color:#515a72; font-size:19px; }
+    .actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:28px; }
+    .button { display:inline-flex; align-items:center; min-height:44px; padding:0 18px; border:1px solid var(--ink); border-radius:8px; text-decoration:none; font-weight:800; }
+    .button.primary { color:#fff; background:var(--ink); }
+    .button.secondary { background:#fff; }
+    main { padding:48px 0 80px; }
+    section { margin-bottom:58px; }
+    .section-head { display:flex; justify-content:space-between; align-items:end; gap:24px; margin-bottom:18px; }
+    .section-head h2 { margin:0; font-size:32px; line-height:1.2; letter-spacing:-.035em; }
+    .section-head p { max-width:570px; margin:0; color:var(--muted); }
+    .section-kicker { margin-bottom:6px; color:var(--accent); font-size:12px; font-weight:900; letter-spacing:.15em; }
+    .brief-grid { display:grid; grid-template-columns:1.2fr .8fr; gap:16px; }
+    .paper { padding:26px; background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); }
+    .paper h3 { margin:0 0 12px; font-size:20px; }
+    .paper p { margin:0; color:#555e76; }
+    .number-list { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; }
+    .number { padding:16px; background:var(--blue-soft); border-radius:10px; }
+    .number strong { display:block; font-size:28px; line-height:1.1; }
+    .number span { color:var(--muted); font-size:13px; }
+    .tasks { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+    .task { padding:24px; min-height:230px; background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); }
+    .task-id { display:inline-flex; width:36px; height:36px; align-items:center; justify-content:center; border-radius:8px; background:var(--ink); color:#fff; font-weight:900; }
+    .task h3 { margin:18px 0 9px; font-size:21px; }
+    .task p { margin:0; color:#596279; }
+    .refs { display:flex; flex-wrap:wrap; gap:8px; margin-top:17px; }
+    .ref { padding:6px 10px; border-radius:7px; background:var(--accent-soft); color:var(--accent); font-size:13px; font-weight:800; text-decoration:none; }
+    .rules { overflow:hidden; background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); }
+    .rule { display:grid; grid-template-columns:180px 1fr; padding:16px 20px; border-bottom:1px solid var(--line); }
+    .rule:last-child { border-bottom:0; }
+    .rule b { font-weight:800; }
+    .rule span { color:#596279; }
+    .submission { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+    .file { padding:20px; background:var(--card); border:1px solid var(--line); border-radius:14px; }
+    .file b { display:block; margin-bottom:4px; font-size:18px; }
+    .file span { color:var(--muted); font-size:14px; }
+    .material-bar { display:flex; justify-content:space-between; align-items:center; gap:20px; padding:22px 24px; margin-bottom:18px; background:var(--ink); color:#fff; border-radius:14px; }
+    .material-bar h3 { margin:0; font-size:22px; }
+    .material-bar p { margin:3px 0 0; color:#cbd1e5; }
+    .material-stat { display:flex; gap:22px; flex-shrink:0; }
+    .material-stat strong { display:block; font-size:25px; line-height:1.1; }
+    .material-stat span { color:#cbd1e5; font-size:12px; }
+    .sku-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
+    .sku-card { background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; box-shadow:var(--shadow); }
+    .sku-meta { display:flex; justify-content:space-between; align-items:start; gap:12px; padding:18px 18px 14px; }
+    .sku-id { color:var(--accent); font-size:12px; font-weight:900; letter-spacing:.08em; }
+    .sku-meta h3 { margin:5px 0 1px; font-size:19px; }
+    .sku-code { color:var(--muted); font-size:13px; }
+    .sku-chip { padding:5px 8px; border-radius:6px; background:var(--blue-soft); color:#4d5891; font-size:12px; font-weight:800; white-space:nowrap; }
+    .sku-images { display:grid; grid-template-columns:repeat(3,1fr); gap:4px; padding:0 4px 4px; background:#f0f1f5; }
+    .sku-images a { display:block; aspect-ratio:1/1; overflow:hidden; background:#fff; }
+    .sku-images img { display:block; width:100%; height:100%; object-fit:cover; transition:transform .25s ease; }
+    .sku-images a:hover img { transform:scale(1.04); }
+    .sku-foot { display:flex; justify-content:space-between; gap:10px; padding:12px 18px 16px; color:var(--muted); font-size:13px; }
+    .sku-foot a { color:var(--ink); font-weight:800; text-decoration:none; }
+    footer { padding:24px 0 38px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    @media (max-width:850px) { .brief-grid,.tasks,.submission { grid-template-columns:1fr; } .sku-grid { grid-template-columns:1fr; } .material-bar { align-items:start; flex-direction:column; } }
+    @media (max-width:600px) { .shell { width:min(100% - 28px,1160px); } .title-block { padding:44px 0 42px; } .lead { font-size:17px; } .section-head { display:block; } .section-head p { margin-top:8px; } .rule { grid-template-columns:1fr; gap:3px; } .number-list { grid-template-columns:1fr 1fr; } .material-stat { gap:18px; } }
   </style>
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <div class="shell">
-      <div class="topline">
-        <div class="brand">芭爪娱 <span>/</span> 面试实操</div>
-        <div class="version">素材包 v1.0 · 2026</div>
-      </div>
-      <div class="hero">
-        <div>
-          <div class="eyebrow">Video production challenge</div>
-          <h1>把产品拍出<br>让人想打开的理由。</h1>
-          <p class="hero-copy">请用现场拍摄、剪辑和 AI 视频能力，完成三项短视频实操。这里是面试所需的任务说明与已筛选产品素材。</p>
-          <div class="actions">
-            <a class="button primary" href="芭爪娱_面试实操素材包_v1.0.zip" download>下载全部素材</a>
-            <a class="button secondary" href="#tasks">查看任务</a>
-          </div>
-        </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="orbit"></div>
-          <div class="sticker one">9:16<small>竖屏成片</small></div>
-          <div class="sticker two">20s<small>单条上限</small></div>
-        </div>
-      </div>
-      <div class="stats" aria-label="素材包统计">
-        <div class="stat"><strong>3</strong><span>实操任务</span></div>
-        <div class="stat"><strong>8</strong><span>精选素材</span></div>
-        <div class="stat"><strong>8</strong><span>产品形态</span></div>
-        <div class="stat"><strong>9:16</strong><span>统一画幅</span></div>
+      <div class="topbar"><span>芭爪娱 / 视频拍摄剪辑实操题</span><span>候选人试题</span></div>
+      <div class="title-block">
+        <div class="kicker">INTERVIEW PRACTICAL TEST</div>
+        <h1>视频拍摄剪辑实操题</h1>
+        <p class="lead">请围绕芭爪娱产品完成盲盒开箱、创意短视频和 AI 视频三项实操，并按统一规格提交成片。</p>
+        <div class="actions"><a class="button primary" href="芭爪娱_面试实操素材包_v2.0.zip" download>下载素材包（60张）</a><a class="button secondary" href="素材清单.csv" download>下载素材清单</a></div>
       </div>
     </div>
   </header>
 
   <main class="shell">
-    <section id="tasks">
-      <div class="section-head">
-        <div><div class="eyebrow">01 / 03</div><h2>三项实操任务</h2></div>
-        <p>三项任务都围绕芭爪娱产品展开，重点观察快速理解、现场执行、剪辑节奏和创意重构能力。</p>
+    <section>
+      <div class="section-head"><div><div class="section-kicker">题目说明</div><h2>请完成以下三项任务</h2></div><p>在面试官规定的时间内完成拍摄、剪辑和 AI 视频制作。</p></div>
+      <div class="brief-grid">
+        <article class="paper"><h3>作答方式</h3><p>可使用公司提供的产品实物、拍摄设备和 AI 视频生成工具。视频内容需围绕芭爪娱产品展开，创意可以根据自己的判断重新设计。</p></article>
+        <article class="paper"><h3>本次素材包</h3><div class="number-list"><div class="number"><strong>20</strong><span>个 SKU</span></div><div class="number"><strong>60</strong><span>张图片</span></div></div></article>
       </div>
+    </section>
+
+    <section id="tasks">
+      <div class="section-head"><div><div class="section-kicker">任务 01—03</div><h2>实操任务</h2></div></div>
       <div class="tasks">
-        <article class="task"><span class="task-num">01</span><h3>盲盒开箱</h3><p>快速完成一套盲盒开箱视频，突出拆封、揭晓、产品细节和情绪节奏。</p></article>
-        <article class="task"><span class="task-num">02</span><h3>创意短视频</h3><p>从参考视频中任选一个方向，重新设计一条芭爪娱产品创意视频，不要求复刻。</p><div class="refs"><a class="ref" href="https://www.xiaohongshu.com/discovery/item/688b3dc3000000002302adbf" target="_blank" rel="noreferrer">参考视频 1 ↗</a><a class="ref" href="https://www.xiaohongshu.com/discovery/item/66e55adf0000000026032b8f" target="_blank" rel="noreferrer">参考视频 2 ↗</a></div></article>
-        <article class="task"><span class="task-num">03</span><h3>AI 视频</h3><p>使用公司提供的 AI 视频生成工具，围绕芭爪娱产品完成一段 AI 创意视频并做基础优化。</p></article>
+        <article class="task"><span class="task-id">01</span><h3>盲盒开箱视频</h3><p>快速拍摄并剪辑一条盲盒开箱视频，展示拆封过程、产品细节和开箱结果。</p></article>
+        <article class="task"><span class="task-id">02</span><h3>创意短视频</h3><p>从两个参考视频中任选一个创意方向，完成一条芭爪娱产品创意视频。不要求与参考视频画面完全一致，可以借鉴创意形式、镜头语言、节奏或单个创意点。</p><div class="refs"><a class="ref" href="https://www.xiaohongshu.com/discovery/item/688b3dc3000000002302adbf" target="_blank" rel="noreferrer">参考视频 1 ↗</a><a class="ref" href="https://www.xiaohongshu.com/discovery/item/66e55adf0000000026032b8f" target="_blank" rel="noreferrer">参考视频 2 ↗</a></div></article>
+        <article class="task"><span class="task-id">03</span><h3>AI 视频</h3><p>使用公司提供的 AI 视频生成工具，围绕芭爪娱产品制作一条 AI 视频。</p></article>
       </div>
     </section>
 
     <section>
-      <div class="section-head"><div><div class="eyebrow">02 / 03</div><h2>交付标准</h2></div><p>三条成片统一按以下规格输出，保证内容可以直接进入后续评审。</p></div>
-      <div class="requirements">
-        <div class="panel"><h3>视频规格</h3><ul class="checklist"><li>竖屏 9:16，建议 1080×1920</li><li>单条视频 20 秒以内</li><li>MP4 格式，画面清晰、主体突出</li><li>自行选择 BGM、音效和字幕</li><li>需清楚展示芭爪娱产品</li></ul></div>
-        <div class="panel"><h3>建议关注</h3><div class="mini-grid"><div class="mini"><b>快</b><span>快速搭建镜头和叙事</span></div><div class="mini"><b>准</b><span>准确呈现产品细节</span></div><div class="mini"><b>顺</b><span>节奏、音乐、转场自然</span></div><div class="mini"><b>新</b><span>对参考创意做出重构</span></div></div></div>
+      <div class="section-head"><div><div class="section-kicker">统一要求</div><h2>成片规格</h2></div></div>
+      <div class="rules">
+        <div class="rule"><b>视频尺寸</b><span>竖屏 9:16</span></div>
+        <div class="rule"><b>视频时长</b><span>单条 20 秒以内</span></div>
+        <div class="rule"><b>视频内容</b><span>需展示芭爪娱产品</span></div>
+        <div class="rule"><b>BGM</b><span>自行选择，并与画面节奏匹配</span></div>
+        <div class="rule"><b>输出格式</b><span>MP4，分辨率 1080×1920</span></div>
       </div>
     </section>
 
-    <section id="assets">
-      <div class="section-head"><div><div class="eyebrow">03 / 03</div><h2>精选产品素材</h2></div><p>已从内部修图目录中筛选 8 种不同形态，每种 1 张，适合直接用于剪辑、AI 参考或创意测试。</p></div>
-      <div class="asset-grid">
-        <article class="asset"><div class="asset-image"><img src="assets/01-macaron-blindbox.jpg" alt="马卡龙泡泡糖挂件盲盒" loading="lazy"></div><div class="asset-body"><span class="tag">盲盒挂件</span><h3>马卡龙泡泡糖挂件盲盒</h3><p>适合开箱、揭晓和近景细节镜头。</p><a class="asset-download" href="assets/01-macaron-blindbox.jpg" download>下载素材</a></div></article>
-        <article class="asset"><div class="asset-image"><img src="assets/02-icecream-plush-pendant.jpg" alt="冰淇淋毛绒挂件" loading="lazy"></div><div class="asset-body"><span class="tag">毛绒挂件</span><h3>冰淇淋毛绒挂件</h3><p>适合手持展示、旋转和挂载场景。</p><a class="asset-download" href="assets/02-icecream-plush-pendant.jpg" download>下载素材</a></div></article>
-        <article class="asset"><div class="asset-image"><img src="assets/03-sweetheart-doll.jpg" alt="甜心充电站 M 码公仔" loading="lazy"></div><div class="asset-body"><span class="tag">公仔</span><h3>甜心充电站 M 码公仔</h3><p>适合人物化演绎和表情特写。</p><a class="asset-download" href="assets/03-sweetheart-doll.jpg" download>下载素材</a></div></article>
-        <article class="asset"><div class="asset-image"><img src="assets/04-cake-backpack.jpg" alt="切片蛋糕 S 码背包" loading="lazy"></div><div class="asset-body"><span class="tag">背包</span><h3>切片蛋糕 S 码背包</h3><p>适合佩戴、功能和生活方式内容。</p><a class="asset-download" href="assets/04-cake-backpack.jpg" download>下载素材</a></div></article>
-        <article class="asset"><div class="asset-image"><img src="assets/05-yapicat-phone-lanyard.jpg" alt="YAPICAT 手机挂绳" loading="lazy"></div><div class="asset-body"><span class="tag">手机挂绳</span><h3>YAPICAT 手机挂绳</h3><p>适合功能演示、穿搭和手部动作。</p><a class="asset-download" href="assets/05-yapicat-phone-lanyard.jpg" download>下载素材</a></div></article>
-        <article class="asset"><div class="asset-image"><img src="assets/06-yapicat-combo-lanyard.jpg" alt="YAPICAT 三合一挂件" loading="lazy"></div><div class="asset-body"><span class="tag">组合挂件</span><h3>YAPICAT 三合一挂件</h3><p>适合拆解、组合和功能切换创意。</p><a class="asset-download" href="assets/06-yapicat-combo-lanyard.jpg" download>下载素材</a></div></article>
-        <article class="asset"><div class="asset-image"><img src="assets/07-sweet-sauce-mini-pouch.png" alt="甜心酱迷你小包" loading="lazy"></div><div class="asset-body"><span class="tag">迷你小包</span><h3>甜心酱迷你小包</h3><p>适合打开、收纳、反差或转场。</p><a class="asset-download" href="assets/07-sweet-sauce-mini-pouch.png" download>下载素材</a></div></article>
-        <article class="asset"><div class="asset-image"><img src="assets/08-bbq-steak-pillow.jpg" alt="BBQ 战斧牛排抱枕" loading="lazy"></div><div class="asset-body"><span class="tag">抱枕</span><h3>BBQ 战斧牛排抱枕</h3><p>适合夸张比例、居家场景和反转。</p><a class="asset-download" href="assets/08-bbq-steak-pillow.jpg" download>下载素材</a></div></article>
-      </div>
+    <section>
+      <div class="section-head"><div><div class="section-kicker">提交内容</div><h2>请提交 3 条成片</h2></div></div>
+      <div class="submission"><div class="file"><b>01 / 盲盒开箱</b><span>姓名_盲盒开箱视频.mp4</span></div><div class="file"><b>02 / 创意短视频</b><span>姓名_创意短视频.mp4</span></div><div class="file"><b>03 / AI 视频</b><span>姓名_AI视频.mp4</span></div></div>
     </section>
 
-    <div class="notice"><div>ⓘ</div><div><b>面试官提示：</b>建议现场提供实际盲盒、桌面、补光灯和基础拍摄设备，并根据岗位级别设置 90–120 分钟的拍摄剪辑时限。AI 视频可额外预留生成和调整时间。</div></div>
+    <section id="materials">
+      <div class="material-bar"><div><h3>产品素材包</h3><p>20 个 SKU × 每个 3 张不同图片，共 60 张白底修图素材</p></div><div class="material-stat"><div><strong>20</strong><span>SKU</span></div><div><strong>60</strong><span>图片</span></div></div></div>
+      <div id="skuGrid" class="sku-grid"></div>
+    </section>
   </main>
-  <footer><div class="shell">芭爪娱视频拍摄剪辑实操题 · 素材包 v1.0</div></footer>
+  <footer><div class="shell">芭爪娱｜视频拍摄剪辑实操题</div></footer>
+
+  <script>
+    const skuData = [
+      ["SKU01","K2512054","雪顶冰淇淋"],["SKU02","K2512050","苹果小红帽冰淇淋"],["SKU03","K2512074","牛奶帽冰淇淋"],["SKU04","K2512052","芒果冰淇淋"],["SKU05","K2511136","橘子冰淇淋"],["SKU06","K2512051","薄巧冰淇淋"],["SKU07","K2512079","花束冰淇淋"],["SKU08","K2512076","双霉冰淇淋"],["SKU09","K2512053","草莓冰淇淋"],["SKU10","K2512078","柠檬冰淇淋"],["SKU11","K2601107","泡泡糖马卡龙"],["SKU12","K2601103","柠檬马卡龙"],["SKU13","K2601014","蓝莓马卡龙"],["SKU14","K2601110","黑巧马卡龙"],["SKU15","K2601104","青提马卡龙"],["SKU16","K2601106","薄荷马卡龙"],["SKU17","K2601030","苹果马卡龙"],["SKU18","K2601102","橙子马卡龙"],["SKU19","K2601109","草莓马卡龙"],["SKU20","K2512040","抹茶蛋糕"]
+    ];
+    const grid = document.querySelector('#skuGrid');
+    grid.innerHTML = skuData.map(([id, code, product]) => {
+      const images = [1,2,3].map(n => `assets/${id}/${String(n).padStart(2,'0')}.jpg`);
+      const imageHtml = images.map((src, i) => `<a href="${src}" target="_blank" rel="noreferrer"><img src="${src}" alt="${product} ${i + 1}" loading="lazy"></a>`).join('');
+      return `<article class="sku-card"><div class="sku-meta"><div><div class="sku-id">${id}</div><h3>${product}</h3><div class="sku-code">货号 ${code} · 甜品系列</div></div><span class="sku-chip">3 张</span></div><div class="sku-images">${imageHtml}</div><div class="sku-foot"><span>不同角度 / 细节图</span><a href="${images[0]}" target="_blank" rel="noreferrer" aria-label="查看${product}素材">查看大图 ↗</a></div></article>`;
+    }).join('');
+  </script>
 </body>
 </html>
