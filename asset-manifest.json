@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "title": "芭爪娱视频拍摄剪辑实操素材包",
+  "selectedCount": 8,
+  "selectionRule": "从 000 自研发品牌 下的修图目录中，按产品形态各选 1 张白底/纯底素材；排除蓝底图、场景合照和重复角度。",
+  "seriesCount": {
+    "甜品系列": 5,
+    "YAPICAT": 2,
+    "BBQ烧烤": 1
+  },
+  "assets": [
+    {
+      "id": "01",
+      "file": "assets/01-macaron-blindbox.jpg",
+      "category": "盲盒挂件",
+      "product": "马卡龙泡泡糖挂件盲盒（隐藏款）",
+      "series": "甜品系列",
+      "note": "适合开箱、揭晓、近景细节镜头"
+    },
+    {
+      "id": "02",
+      "file": "assets/02-icecream-plush-pendant.jpg",
+      "category": "毛绒挂件",
+      "product": "冰淇淋毛绒挂件",
+      "series": "甜品系列",
+      "note": "适合手持展示、旋转、挂载场景"
+    },
+    {
+      "id": "03",
+      "file": "assets/03-sweetheart-doll.jpg",
+      "category": "公仔",
+      "product": "甜心充电站 M 码公仔",
+      "series": "甜品系列",
+      "note": "适合人物化演绎、推拉镜头和表情特写"
+    },
+    {
+      "id": "04",
+      "file": "assets/04-cake-backpack.jpg",
+      "category": "背包",
+      "product": "切片蛋糕 S 码背包",
+      "series": "甜品系列",
+      "note": "适合佩戴、容量/细节和生活方式内容"
+    },
+    {
+      "id": "05",
+      "file": "assets/05-yapicat-phone-lanyard.jpg",
+      "category": "手机挂绳",
+      "product": "YAPICAT 手机挂绳",
+      "series": "YAPICAT",
+      "note": "适合功能演示、穿搭和手部动作镜头"
+    },
+    {
+      "id": "06",
+      "file": "assets/06-yapicat-combo-lanyard.jpg",
+      "category": "组合挂件",
+      "product": "YAPICAT 三合一挂件",
+      "series": "YAPICAT",
+      "note": "适合拆解、组合、功能切换类创意"
+    },
+    {
+      "id": "07",
+      "file": "assets/07-sweet-sauce-mini-pouch.png",
+      "category": "迷你小包",
+      "product": "甜心酱迷你小包",
+      "series": "甜品系列",
+      "note": "适合打开、收纳、反差或转场创意"
+    },
+    {
+      "id": "08",
+      "file": "assets/08-bbq-steak-pillow.jpg",
+      "category": "抱枕",
+      "product": "BBQ 战斧牛排抱枕",
+      "series": "BBQ烧烤",
+      "note": "适合夸张比例、居家场景和趣味反转"
+    }
+  ]
+}
