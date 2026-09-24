@@ -3,10 +3,16 @@
   "title": "芭爪娱视频拍摄剪辑实操题素材包",
   "skuCount": 20,
   "imageCount": 60,
-  "referenceVideoCount": 2,
+  "referenceVideoCount": 8,
   "referenceVideos": [
-    {"id":"reference-video-1","file":"videos/reference-video-1.mp4","source":"https://www.xiaohongshu.com/discovery/item/688b3dc3000000002302adbf"},
-    {"id":"reference-video-2","file":"videos/reference-video-2.mp4","source":"https://www.xiaohongshu.com/discovery/item/66e55adf0000000026032b8f"}
+    {"id":"reference-video-1","file":"videos/reference-video-1.mp4","title":"参考视频 1","source":"https://www.xiaohongshu.com/discovery/item/688b3dc3000000002302adbf"},
+    {"id":"reference-video-2","file":"videos/reference-video-2.mp4","title":"参考视频 2","source":"https://www.xiaohongshu.com/discovery/item/66e55adf0000000026032b8f"},
+    {"id":"reference-video-03-secret-labubu","file":"videos/reference-video-03-secret-labubu.mp4","title":"Labubu 盲盒"},
+    {"id":"reference-video-04-halloween-creative","file":"videos/reference-video-04-halloween-creative.mp4","title":"万圣节创意"},
+    {"id":"reference-video-05-miffy-christmas","file":"videos/reference-video-05-miffy-christmas.mp4","title":"Miffy 节日系列"},
+    {"id":"reference-video-06-kitten-holiday-spa","file":"videos/reference-video-06-kitten-holiday-spa.mp4","title":"Kitten Holiday Spa"},
+    {"id":"reference-video-07-disney-cats-dogs","file":"videos/reference-video-07-disney-cats-dogs.mp4","title":"Disney 猫狗系列"},
+    {"id":"reference-video-08-jojo-golden-wind","file":"videos/reference-video-08-jojo-golden-wind.mp4","title":"JOJO 黄金之风"}
   ],
   "selectionRule": "从 000 自研发品牌 下的白底修图目录中筛选 20 个 SKU，每个 SKU 配 3 张不同拍摄角度或细节图片。",
   "seriesCount": {"甜品系列": 20},
